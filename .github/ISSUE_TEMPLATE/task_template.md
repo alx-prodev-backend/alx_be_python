@@ -1,43 +1,28 @@
-# 🧱 Project Title
-
-**Description:**  
-A Python backend project developed using Django, Flask, or core Python.  
-This project follows a structured milestone and sprint model for clean progress tracking.
+---
+name: 🗂️ Task
+about: Add a new task for a milestone or sprint
+title: "[TASK] "
+labels: task
+assignees: ''
 
 ---
 
-## 🚀 Project Structure
+## 📝 Task Description
+Briefly describe the task.
 
-| Directory | Description |
-|------------|-------------|
-| `src/` | Source code of the project |
-| `docs/` | Documentation, milestones, and Gherkin templates |
-| `tests/` | Unit and integration tests |
-| `.github/` | GitHub automation (issues, actions, templates) |
+## 📌 Milestone
+Which milestone does this task belong to?  
+(e.g., Milestone 1 – Python Fundamentals)
 
----
+## 📅 Estimated Duration
+How long will this task take?  
+(e.g., 1–2 hours, 1 day)
 
-## 🧩 Milestones
+## ✅ Acceptance Criteria
+List the criteria that must be met for the task to be considered complete:
+- [ ] Criterion 1
+- [ ] Criterion 2
+- [ ] Criterion 3
 
-| Milestone | Description | Status |
-|------------|--------------|---------|
-| Milestone 1 | Python Fundamentals and Computations | ✅ |
-| Milestone 2 | Functions and Modules | ⏳ |
-| Milestone 3 | Django Basics and API Design | ⏳ |
-
----
-
-## 🧪 Gherkin Scenario Template
-
-Use this for every task:
-
-```gherkin
-Feature: [Feature Name]
-  As a [user/developer]
-  I want to [goal]
-  So that [reason]
-
-  Scenario: [Scenario name]
-    Given [initial state]
-    When [action performed]
-    Then [expected result]
+## 🧪 Notes / Resources
+Add any references, links, or additional notes for completing the task.
