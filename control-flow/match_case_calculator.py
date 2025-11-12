@@ -16,6 +16,11 @@ operator = input("Choose the operation (+, -, *, /):")
 # elif s_num ==0 and operator == "/":
 #     print("Cannot divide by zero.")
 
+"""
+will never be reached, because the earlier elif operator == "/" runs first — and Python will already try to divide by zero,
+causing a crash (ZeroDivisionError) before that line executes.
+"""
+
 match operator:
     case "+":
         print(f"The result is {f_num + s_num}")
