@@ -5,7 +5,7 @@ class BankAccount:
 
     def __init__(self, initial_balance=0):
         """Initialize the bank account with an optional balance."""
-        self.account_balance = initial_balance
+        self.account_balance = float(initial_balance)
 
     def deposit(self, amount):
         """Deposit a positive amount into the account."""
